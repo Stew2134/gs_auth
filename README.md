@@ -52,6 +52,18 @@ Step 8:
 
 Have fun writing your app using a private google sheet as the source!!!
 
+///////////////////////
+install file using wget
+///////////////////////
+
+you can install this program on your alpine linux install using the following commands:
+
+apk update
+apk add wget
+wget -O /tmp/gs_auth https://github.com/Stew2134/gs_auth/releases/download/v0.1/gs_auth
+chmod +x /tmp/gs_auth
+mv /tmp/gs_auth /user/local/bin/
+
 //////////////////////////
 Dependencies for building from source
 //////////////////////////
