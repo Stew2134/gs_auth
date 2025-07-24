@@ -59,10 +59,14 @@ install file using wget
 you can install this program on your alpine linux install using the following commands:
 
 apk update
+
 apk add wget
+
 wget -O /tmp/gs_auth https://github.com/Stew2134/gs_auth/releases/download/v0.1/gs_auth
+
 chmod +x /tmp/gs_auth
-mv /tmp/gs_auth /user/local/bin/
+
+mv /tmp/gs_auth /usr/local/bin/
 
 //////////////////////////
 Dependencies for building from source
